@@ -1,0 +1,269 @@
+
+/* css for header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background-color: ghostwhite;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0) ;
+}
+
+
+/* css for navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* css for list in navbar */
+#navbar li{
+    list-style: none;
+    padding: 0px 25px;
+    position: relative;
+}
+
+/* css for anchor tag of list  */
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.4s ease;
+}
+
+
+/* css for hover effect */
+#navbar li a:hover,
+#navbar li a.active{
+    color:#088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color:#088178;
+    position: absolute;
+    bottom: -4px;
+    left: 26px;
+}
+
+
+
+
+/* css for body part */
+
+#one{
+    align-items: center;
+    padding: 30px 300px;
+}
+h1{
+    font-size: 40px;
+    line-height: 1px;
+    color: rgb(28, 39, 235);
+    font-family: cursive;
+}
+p{
+    font-family:cursive;
+}
+#two{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+#three{
+    padding-top: 37px;
+    padding-left: -3px;
+}
+#three p{
+    line-height: 5px;
+}
+#four{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#four p{
+    text-align: justify;
+    padding: 0px 30px;
+}
+#four h2{
+    text-align: center;
+    font-size: 20px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(173, 213, 232);
+    border-radius: 40%;
+    font-family: cursive;
+}
+#four a{
+    text-decoration: none;
+}
+
+#four h2:hover{
+    color:#088178;
+}
+
+#four h5{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1px;
+    font-family: cursive;
+    background-color: rgb(17, 243, 77);
+}
+
+
+/* css for search bar */
+.search-container {
+    text-align: center;
+    margin: 20px auto;
+    padding-left: -10px;
+    display: flex;
+}
+
+/* Style for the input */
+#search-input {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Style for the button */
+#search-button {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+#search-results {
+    margin-top: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    max-width: 200px; 
+    margin: 20px; 
+}
+
+
+
+/* Css for comment section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.comments-container {
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.comments-list {
+    margin-bottom: 20px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.comment-form textarea {
+    width: 100%;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* css for footer */
+/* body, html {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Styling for the entire footer */
+footer {
+    background-color: #cacdd1;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the footer content container */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Styling for the footer logo */
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Styling for the footer links */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links p {
+    margin: 5px 0;
+    color: black;
+}
+
+.footer-links a {
+    color: #040404;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 200px;
+    transition: color 0.3s;
+}
+
+/* Add hover effect to links */
+.footer-links a:hover {
+    color: #f0f0f0;
+}
+

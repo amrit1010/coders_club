@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        #fourr{
+            width: 800px;
+            height: 90vh;
+            /* background-image: url(/pic/pic1.jpg); */
+            background-size: 100% 100%;
+            animation: changeimage 49s linear infinite ;
+        }
+        @keyframes changeimage {
+            0%{
+                background-image: url(/pic/pic1.jpg);
+            }9%{
+                background-image: url(/pic/pic2.png);
+            }18%{
+                background-image: url(/pic/pic3.png);
+            }27%{
+                background-image: url(/pic/pic4.png);
+            }36%{
+                background-image: url(/pic/pic10.png);
+            }45%{
+                background-image: url(/pic/pic7.jpg);
+            }54%{
+                background-image: url(/pic/pic6.jpg);
+            }63%{
+                background-image: url(/pic/pic5.jpg);
+            }72%{
+                background-image: url(/pic/pic8.jpg);
+            }81%{
+                background-image: url(/pic/pic9.jpg);
+            }100%{
+                background-image: url(/pic/logo.png);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id ="header" style="position: fixed; width: 94%; z-index: 100; top: 0; left: 0;">
+        <a href="https://iic.edu.np/"><img src="/pic/logo.png.png" class="logo" height="80"></a>
+
+        <div>
+            <ul id = "navbar">
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "features.html">FEATURES</a></li>
+                <li><a class="active" href = "blog.html">BLOG</a></li>
+                <li><a href = "portfolio.html">PORTFOLIO</a></li>
+                <li><a href = "contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id = "one" style="padding-top: 90px;">
+        <h1>HELLO! WELCOME TO BLOG</h1>
+        <P>A blog is like an online diary where people write and share their thoughts, stories, or information with others on the internet.</P>
+        <div id = "two" style="padding-left: 20px;">
+            <div id = "three">
+                <a href="https://www.facebook.com/amrit.karki.33865"><img src="/pic/my pic.png" height="100"></a>
+                <p>Amrit karki</p>
+                <p>Date:10/07/2023</p>
+                <p>Comments...</p>
+                <p>Phone:9800000000</p>
+            </div>
+
+            <div id = "four">
+                <div id = "fourr"></div>
+                <a href="https://iic.edu.np/" target="_blank"><h2>Itahari International College</h2></a>
+                <p>Since 2017, Itahari International College has offered top-tier IT and Business programmes in partnership with London Metropolitan University, UK. It aims to produce globally competitive graduates, making it the first college in Itahari to provide a direct UK university degree. IIC nurtures future leaders and innovators by providing hands-on experiences, real-world projects, and a practical curriculum. Our commitment is evident in our alumni's successful careers and high placement rates. Itahari International College is a flagship institution of Innovate Nepal Group (ING). London Metropolitan University is a diverse and socially inclusive institution in London, UK. With over 12,500 UK-based students and collaborative programmes worldwide, London Met provides education focusing on sustainability and employability.</p>
+                
+                <br>
+                <a href="https://iic.edu.np/scholarship" target="_blank"><h2>Scholarship opportunity</h2></a>
+                <p>At IIC, we take pride in recognising and honouring our students' outstanding academic achievements, talents, and accomplishments through our exclusive scholarship programme.</p>
+                <br>
+                <a href="https://iic.edu.np/life-at-iic"><h2>Life at IIC</h2></a>
+                <h5>Spring Carnival</h5>
+                <p>This extraordinary event is a celebration like no other, where incredible student talents, vibrant cultural displays, mouthwatering cuisines, and endless fun come together to create an unforgettable experience.</p>
+                <h5> IIC Industrial Fair</h5>
+                <p>IIC Industrial Fair is an exclusive event where students pitch their ideas, gain industry insights, and connect with experts. This event empowers students to become industry-ready, transforming their innovative ideas into reality.</p>
+                <h5>IIC Fiesta</h5>
+                <p>IIC Fiesta 2022 brings the best of entertainment and competition, from captivating performances to epic gaming battles are endless.</p>
+                <br>
+                <br>
+                <div style="display: flex; font-size: 25px;">
+                    <div style="padding: 10px 50px; background-color: rgb(208, 235, 88);border-radius: 30px; margin: 0px 30px;">
+                        <a href="https://www.facebook.com/amrit.karki.33865" target="_blank"><h4>Facebook</h4></a>
+                    </div>
+                    <div style="padding: 10px 50px;  background-color: rgb(208, 235, 88);border-radius: 30px; margin: 0px 30px; ">
+                        <a href="https://www.instagram.com/amreetkarkey/?fbclid=IwAR1yD2TyYana8c8zzUWfkAb5_Wc3rjLB4A8V0SlVJ6zt0qFrOJucicVef_c"  target="_blank"><h4>Instagram</h4></a>
+                    </div>
+                    <div style="padding: 10px 80px;  background-color: rgb(208, 235, 88);border-radius: 30px; margin: 0px 30px; ">
+                        <a href="https://www.tiktok.com/@amreetkarkey1?is_from_webapp=1&sender_device=pc" target="_blank"><h4>Tiktok</h4></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="search-container">
+                    <div>
+                        <input type="text" id="search-input" placeholder="Search">
+                    </div>
+                    <div>
+                        <button id="search-button">Search</button>
+                    </div>
+                </div>
+                <div>
+                    <div id="search-results"></div>
+                    <h3 style="padding-left: 30px;">Blog categories</h3>
+                    <ul style="padding-left: 50px;">
+                        <li>Web development</li>
+                        <li>E-Commerce</li>
+                        <li>Brand identity</li>
+                        <li>Web design</li>
+                        <li>Web development</li>
+                        <li>App development</li>
+                        <li style="color: blue;">Web development</li>
+                        <li>Education</li>
+                        <li>Hospital</li>
+                        <li>Web development</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="comments-container">
+            <h1 style="color: black; font-family: 'Times New Roman', Times, serif; text-align: center; padding-bottom: 70px;">Comment Section</h1>
+            <div class="comments-list" id="comments-list">
+            </div>
+            <div class="comment-form">
+                <h2>Add a Comment</h2>
+                <textarea id="comment-input" placeholder="Write your comment here"></textarea>
+                <button id="add-comment-button">Add Comment</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/pic/logo.png.png" alt="Company Logo">
+                <h1 style="color: black; padding-top: 10px;">Itahari International College</h1>
+            </div>
+            <div class="footer-links">
+                <ul >
+                    <p><a href="/blog.html">Home</a></p>
+                    <p><a href="/blog.html">About Us</a></p>
+                    <p><a href="/blog.html">Services</a></p>
+                    <p><a href="/blog.html">Portfolio</a></p>
+                    <p><a href="/blog.html">Contact Us</a></p>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
